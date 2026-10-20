@@ -12,16 +12,25 @@
 
   <canvas id="bg-canvas"></canvas>
 
+  <<!-- Навигация -->
   <nav class="navbar">
     <div class="logo">🛡️ СтопКоррупция</div>
-    <ul class="nav-links">
+    
+    <!-- Кнопка-бургер (видна только на телефонах) -->
+    <div class="menu-toggle" id="mobile-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Само меню -->
+    <ul class="nav-links" id="nav-links">
       <li><a href="#stats">Статистика</a></li>
       <li><a href="#map-section">Карта</a></li>
       <li><a href="#how">Как бороться</a></li>
       <li><a href="#report">Сообщить</a></li>
     </ul>
   </nav>
-
   <header class="hero">
     <h1 class="hero-title">
       <span class="glitch" data-text="Борьба с коррупцией">Борьба с коррупцией</span>

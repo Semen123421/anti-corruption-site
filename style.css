@@ -86,16 +86,16 @@ body {
   font-weight: 800;
   margin-bottom: 1.5rem;
   letter-spacing: -1px;
-  color: #ffffff;
 }
 
 .hero-gradient-text {
   background: linear-gradient(135deg, #00e5ff 0%, #7c3aed 100%);
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 15px rgba(0, 229, 255, 0.5));
   display: inline-block;
+  color: transparent; /* Добавили сюда для Safari */
 }
 
 .hero-sub {

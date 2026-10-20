@@ -12,6 +12,15 @@ body { background: var(--dark); color: var(--light); overflow-x: hidden; }
   font-family: 'Oswald', sans-serif;
 }
 .hero-gradient-text {
+  background: linear-gradient(135deg, #00e5ff 0%, #7c3aed 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 20px rgba(0, 229, 255, 0.6));
+  font-weight: 800;
+  display: inline-block;
+}
+.hero-gradient-text {
   /* Делаем градиент от бирюзового к фиолетовому */
   background: linear-gradient(135deg, #00e5ff 0%, #7c3aed 100%);
   -webkit-background-clip: text;
